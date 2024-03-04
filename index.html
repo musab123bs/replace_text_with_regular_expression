@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 id="name">Musab is very very Awesome and very good and nice and very good boy</h3>
+
+    <script>
+        var a = document.getElementById("name").innerHTML;
+        var b = /very/g
+        result = a.replace(b, "VERY");
+        document.querySelector('#name').innerHTML = result;
+    </script>
+</body>
+</html>
